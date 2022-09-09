@@ -21,13 +21,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   que j'ai rencontré dans le domaine de l'Informatique. Bonne lecture !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sitraka-hq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SitrakaHQ
-github_username:  sitraka-hq
+twitter_username: _ratsimba
+github_username:  sratsimba
 disqus:
   shortname: sitraka-hq
 # Build settings
-markdown: kramdown
 theme: minima
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: table
+    bold_every: 5
 minima:
   date_format: "%d/%m/%y"
 show_excerpts: true
