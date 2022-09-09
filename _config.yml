@@ -27,11 +27,6 @@ disqus:
   shortname: sitraka-hq
 # Build settings
 theme: minima
-kramdown:
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
 minima:
   date_format: "%d/%m/%y"
 show_excerpts: true
